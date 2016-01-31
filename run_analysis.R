@@ -139,4 +139,4 @@ TidyData <- as.data.table(TidyData)
 setkey(TidyData, SubjectId, ActivityId, ActivityType)
 
 ##Export the TidyData data set
-write.table(TidyData, "./TidyData.txt", row.names = TRUE, sep = "\t")
+write.table(TidyData, "./TidyData.txt", row.names = FALSE, sep = "\t")
